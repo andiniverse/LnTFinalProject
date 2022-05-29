@@ -1,0 +1,368 @@
+body {
+  background: #fafafa;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right top;
+  background-size: 57%;
+  overflow-x: hidden;
+}
+
+#landing > .subtitle {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(0.6em + 1vw);
+  color: #717172;
+  margin-left: 1em;
+}
+
+.title-utama {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: calc(4em + 3vw);
+  color: #3d388e;
+  line-height: calc(1em + 0.5vh);
+  margin-top: 6%;
+  margin-left: 0px;
+}
+
+.title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: calc(4em + 3vw);
+  color: #717172;
+  line-height: calc(1em + 0.5vh);
+  margin-top: 6%;
+  margin-left: 0px;
+}
+
+.title > span {
+  color: #3d388e;
+}
+
+.title-section > .subtitle {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(0.6em + 1vw);
+  color: #717172;
+  margin-left: 1em;
+}
+
+.desc-section {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 3%;
+  width: 70%;
+  font-size: calc(0.5em + 0.7vw);
+  color: #999ca0;
+}
+
+.desc-section {
+  margin-bottom: 4em;
+}
+
+.desc-section .desc {
+  width: 110%;
+}
+
+.desc > span {
+  color: #717172;
+}
+
+/* item buat img slider */
+.item {
+  width: calc(24em + 7vw);
+  /* width: 540px !important; */
+}
+
+.moon {
+  text-align: center;
+}
+
+.hover-image {
+  width: calc(8em + 7vw);
+}
+
+.schedule {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: calc(1em + 0.7vw);
+  line-height: 30px;
+  color: #717172;
+}
+
+.date {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(1em + 0.5vw);
+  line-height: 30px;
+  letter-spacing: -1px;
+  color: #999ca0;
+}
+
+/* contact-us */
+.card {
+  background: linear-gradient(93.47deg, #626262 0.37%, #989898 70.48%);
+  border-radius: 30px;
+  padding: 85px 60px 60px 73px;
+  margin-top: 9em;
+  margin-bottom: 4em;
+  line-height: 4em;
+  color: #fafafa;
+  border: none;
+}
+
+h5.card-title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 64px;
+  letter-spacing: 1px;
+  color: #fafafa;
+}
+
+p.card-text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 64px;
+  letter-spacing: 1px;
+  color: #fafafa;
+}
+
+a.btn-join {
+  text-align: center;
+  text-decoration: none;
+  background: #e9e9e9;
+  border-radius: 20px;
+  width: 182px;
+  font-weight: 500;
+  font-size: 25px;
+  color: #808080;
+}
+
+a.btn-join:hover {
+  filter: drop-shadow(0px 0px 50px #c9c9c9);
+  transition: 0.3s;
+}
+
+.row {
+  margin-top: 50px;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 105px;
+  color: #999ca0;
+}
+
+.row h5 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 64px;
+  color: #999ca0;
+}
+
+.media-social i {
+  font-size: 55px;
+  color: #5b55bd;
+}
+
+.performanced {
+  font-family: "Rubik";
+  font-style: normal;
+  letter-spacing: -1px;
+}
+
+.builtby {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 105px;
+  letter-spacing: -1px;
+  color: #999ca0;
+}
+
+.copyright {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 105px;
+  letter-spacing: -1px;
+  color: #999ca0;
+}
+
+.btn-get-started {
+  border-radius: 20px;
+  padding: 12px 30px;
+  font-weight: bold;
+}
+
+.btn-get-started-blue {
+  background-color: #3d388e;
+  transition: 0.3s;
+}
+
+.btn-get-started-blue:hover {
+  background-color: #6662b3;
+  transition: 0.3s;
+}
+
+.desc {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 3%;
+  width: 70%;
+  font-size: calc(1em + 0.7vw);
+  color: #999ca0;
+}
+
+.desc-timeline {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 3%;
+  width: 100%;
+  font-size: calc(1em + 0.7vw);
+  color: #999ca0;
+}
+
+.subtitle {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(0.6em + 1vw);
+  color: #717172;
+  margin-left: 1em;
+}
+
+.hover-image:hover {
+  background-color: #3d388e;
+  border-color: #3d388e;
+  border-radius: 100%;
+  box-shadow: 0 0 50px #3d388e;
+}
+
+.category h4 {
+  color: #717172;
+  font-weight: 600;
+  font-size: calc(1.5em + 0.5vw);
+}
+
+.category h1 {
+  color: #3d388e;
+  font-weight: 700;
+  font-size: calc(4em + 0.8vw);
+}
+
+.category p {
+  color: #999ca0;
+  font-weight: 400;
+  font-size: calc(1.5em + 0.5vw);
+}
+
+.category p > span {
+  font-weight: 700;
+}
+
+.category button {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: calc(0.1em + 1vw);
+  color: #f2f2f2;
+  width: calc(7em + 1vw);
+  height: calc(1.7em + 1vw);
+  background: linear-gradient(98.23deg, #3d388e 2.28%, #645fbc 67.42%);
+  border-radius: 20px;
+  border-width: 0;
+}
+
+.category button:hover {
+  background: linear-gradient(98.23deg, #2d2a6b 2.28%, #5652a1 67.42%);
+  box-shadow: 0.5px 0.5px 2px rgb(71, 71, 71);
+  color: #c2c2c2;
+}
+
+/* stroke */
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: ".";
+  color: transparent;
+  background: #2d2a6b;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+nav.fill ul li a {
+  transition: all 2s;
+}
+
+nav.fill ul li a:after {
+  text-align: left;
+  content: ".";
+  margin: 0;
+  opacity: 0;
+}
+nav.fill ul li a:hover {
+  color: #fff;
+  z-index: 1;
+}
+nav.fill ul li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
+  opacity: 1;
+}
+
+@-webkit-keyframes fill {
+  0% {
+    width: 0%;
+    height: 1px;
+  }
+  50% {
+    width: 100%;
+    height: 1px;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    background: #b1afe2;
+    border-radius: 20%;
+  }
+}
+
+#navbar {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+  z-index: 1030;
+}

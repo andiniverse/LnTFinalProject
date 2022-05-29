@@ -1,0 +1,46 @@
+body {
+  background: #FAFAFA;
+  background-image: url("../images/v106_38.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right top;
+  background-size: 57%;
+}
+
+.title {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: calc(4em + 3vw);
+  color: #717172;
+  line-height: calc(1em + .5vh);
+  margin-top: 6%;
+  margin-left: 0px;
+}
+
+.title>span {
+  color: #3D388E;
+}
+
+.title-section>.subtitle {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(0.6em + 1vw);
+  color: #717172;
+  margin-left: 1em;
+}
+
+.desc-section {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 3%;
+  width: 70%;
+  font-size: calc(1em + .7vw);
+  color: #999CA0;
+}
+
+.desc>span {
+  color: #717172;
+}

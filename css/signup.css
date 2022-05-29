@@ -1,0 +1,142 @@
+body {
+  background: #FAFAFA;
+  /* padding-top: calc(15px + 1.5625vw);
+  padding-left: calc(48px + 1.5625vw);
+  padding-right: calc(48px + 1.5625vw); */
+}
+
+.card {
+  background: #494865;
+  border-radius: 30px;
+  height: 200px;
+}
+
+img.purple-moon {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.display {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: calc(4em + 1vw);
+  color: #3D388E;
+}
+
+label {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: calc(.2em + 1vw);
+  color: #E2E0E0;
+}
+
+input.form-control {
+  color: #ffffff;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  height: calc(2em + 1vw);
+  background: #494865;
+  border-radius: 10px;
+  border-color: #9C9AB5;
+  border-width: 2px;
+}
+
+input.form-control:focus {
+  color: #ffffff;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  height: calc(2em + 1vw);
+  background: #494865;
+  border-radius: 10px;
+  border-color: #9C9AB5;
+  border-width: 2px;
+}
+
+select.form-control {
+  color: #ffffff;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  height: calc(2em + 1vw);
+  background: #494865;
+  border-radius: 10px;
+  border-color: #9C9AB5;
+  border-width: 2px;
+}
+
+select.form-control:focus {
+  color: #ffffff;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  height: calc(2em + 1vw);
+  background: #494865;
+  border-radius: 10px;
+  border-color: #9C9AB5;
+  border-width: 2px;
+}
+
+option {
+  color: #ffffff;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  background: #7775AB;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* button.submit {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: calc(0.1em + 1vw);
+  color: #F2F2F2;
+  width: calc(7em + 1vw);
+  height: calc(1.7em + 1vw);
+  background: linear-gradient(98.23deg, #3D388E 2.28%, #645FBC 67.42%);
+  border-radius: 20px;
+  border-width: 0;
+}
+
+button.submit:hover {
+  background: linear-gradient(98.23deg, #2d2a6b 2.28%, #5652a1 67.42%);
+  box-shadow: .5px .5px 2px rgb(71, 71, 71);
+  color: #c2c2c2;
+} */
+
+.btn-get-started {
+  border-radius: 20px;
+  padding: 12px 30px;
+  font-weight: 500;
+}
+
+.btn-get-started-blue {
+  background-color: #3d388e;
+  transition: 0.3s;
+}
+
+.btn-get-started-blue:hover {
+  background-color: #6662b3;
+  transition: 0.3s;
+}
